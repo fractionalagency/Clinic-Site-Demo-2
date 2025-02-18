@@ -15,12 +15,6 @@ const doctorInfo = {
     "Aesthetic Dermatology",
     "Skin Care Treatments"
   ],
-  achievements: [
-    { title: "Patients Treated", value: "10,000+" },
-    { title: "Years Experience", value: "35+" },
-    { title: "Success Rate", value: "99%" },
-    { title: "Awards Won", value: "10+" },
-  ],
 };
 
 const AboutDoctor = () => {
@@ -79,36 +73,6 @@ const AboutDoctor = () => {
                   alt={doctorInfo.name}
                   className="w-full h-full object-cover scale-125"
                 />
-              </div>
-
-              <div className="absolute inset-0">
-                {doctorInfo.achievements.map((stat, index) => {
-                  const angleOffset = Math.PI / 8; // 22.5° offset
-                  const angle =
-                    (2 * Math.PI / doctorInfo.achievements.length) * index +
-                    angleOffset;
-                  const x = radius * Math.cos(angle);
-                  const y = radius * Math.sin(angle);
-                  return (
-                    <div
-                      key={index}
-                      style={{
-                        position: "absolute",
-                        top: `calc(50% + ${y}px)`,
-                        left: `calc(50% + ${x}px)`,
-                        transform: "translate(-50%, -50%)",
-                      }}
-                      className="bg-white rounded-xl shadow-lg p-2 sm:p-4 transition-all duration-300 hover:scale-105 hover:shadow-xl text-center"
-                    >
-                      <p className="text-blue-600 text-xs sm:text-sm font-medium">
-                        {stat.title}
-                      </p>
-                      <p className="text-lg sm:text-xl font-bold text-slate-900">
-                        {stat.value}
-                      </p>
-                    </div>
-                  );
-                })}
               </div>
 
               {/* Decorative blobs */}
