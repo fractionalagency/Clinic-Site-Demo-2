@@ -55,7 +55,7 @@ const NavigationBar = () => {
           {/* Remaining links + Book Now */}
           <div className="flex items-center space-x-4">
             <a href={`tel:${phoneNumber}`}>
-              <button className="px-4 py-2 rounded bg-slate-700 hover:bg-slate-800 text-white transition-colors">
+              <button className="px-4 py-2 rounded  bg-slate-900 hover:bg-slate-800 text-white transition-colors">
                 Call Now
               </button>
             </a>
