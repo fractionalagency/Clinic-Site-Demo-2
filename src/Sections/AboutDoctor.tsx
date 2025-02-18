@@ -18,7 +18,7 @@ const doctorInfo = {
 };
 
 const AboutDoctor = () => {
-  const [radius, setRadius] = useState(250);
+  const [, setRadius] = useState(250);
 
   useEffect(() => {
     const handleResize = () => {

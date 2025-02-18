@@ -1,8 +1,8 @@
 
 const VisionSection = () => {
   return (
-    <div className="px-4 bg-gradient-to-br from-slate-50 to-blue-50 max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="px-4 mt-20 w-full bg-gradient-to-br from-slate-50 to-blue-50 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl">
   {/* Left side heading - spans vertically */}
   <div className="space-y-4 p-6 pt-0">
     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-medium text-sm">Our Vision</span>

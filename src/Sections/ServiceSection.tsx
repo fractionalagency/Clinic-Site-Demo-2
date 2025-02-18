@@ -41,8 +41,7 @@ interface ServiceProps {
 }
 
 const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, image }) => (
-  <Card className="group overflow-hidden bg-[#2b3a55] border-none drop-shadow-xl
-">
+  <Card className="group overflow-hidden bg-gradient-to-br from-blue-200 via-blue-300 to-indigo-100 border-none drop-shadow-xl">
     <div className="flex flex-col sm:flex-row h-full">
       <div className="w-full sm:w-48 h-48 sm:h-full flex-shrink-0">
         <img 
@@ -54,20 +53,19 @@ const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, ima
       
       <div className="flex-grow p-4 space-y-3">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-medium text-white">{title}</h3>
+          <h3 className="text-lg font-medium text-gray-900">{title}</h3>
           <ArrowUpRight 
-            className="w-4 h-4 text-white group-hover:text-blue-500 
-            transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
+            className="w-4 h-4 text-gray-900 group-hover:text-blue-500 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
           />
         </div>
         
-        <p className="text-sm text-gray-200 leading-relaxed">
+        <p className="text-sm text-gray-700 leading-relaxed">
           {description}
         </p>
         
         <ul className="space-y-2">
           {features.map((feature, idx) => (
-            <li key={idx} className="flex items-center gap-2 text-sm text-gray-400">
+            <li key={idx} className="flex items-center gap-2 text-sm text-gray-600">
               <span className="w-1 h-1 rounded-full bg-blue-500 opacity-75" />
               {feature}
             </li>
@@ -79,16 +77,16 @@ const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, ima
 );
 
 const ServicesSection = () => (
-  <section id="services" className="py-20  bg-[#151d2f] w-full mx-auto">
+  <section id="services" className="py-20  bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
     <div className="max-w-7xl mx-auto px-4">
       <div className="space-y-2 mb-5">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-medium text-sm">
           Our Medical Services
         </div>
-        <h2 className="text-4xl font-bold text-white leading-tight">
+        <h2 className="text-4xl font-bold text-black leading-tight">
           What We Offer
         </h2>
-        <p className="text-lg text-white leading-relaxed">
+        <p className="text-lg text-black leading-relaxed">
           Expertise-driven care directly aligned with our specialist’s areas of excellence.
         </p>
       </div>
