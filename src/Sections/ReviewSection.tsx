@@ -80,7 +80,7 @@ const ReviewSection = () => {
       <div className="max-w-7xl mx-auto px-4 relative">
         <div className="max-w-3xl">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-medium text-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-300 text-blue-900 font-medium text-sm">
               Patient Reviews
             </div>
             <h2 className="text-4xl font-bold text-slate-900 leading-tight">
