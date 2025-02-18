@@ -86,7 +86,7 @@ const ServicesSection = () => (
         <h2 className="text-4xl font-bold text-black leading-tight">
           What We Offer
         </h2>
-        <p className="text-lg text-black leading-relaxed">
+        <p className="text-lg text-slate-600 leading-relaxed">
           Expertise-driven care directly aligned with our specialist’s areas of excellence.
         </p>
       </div>

@@ -92,7 +92,7 @@ const AboutDoctor = () => {
                   {doctorInfo.name}
                 </span>
               </h3>
-              <p className="text-base sm:text-xl text-black font-bold mb-4">
+              <p className="text-base sm:text-xl text-black font-semibold mb-4">
                 {doctorInfo.specialty}
               </p>
               <p className="text-slate-900 leading-relaxed text-lg sm:text-base">
