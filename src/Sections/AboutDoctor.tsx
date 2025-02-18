@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import DOCTORIMG from "@/assets/AboutImage.png";
 
 const doctorInfo = {
-  name: "Dr.Sunil Kamble",
+  name: "Dr. Sunil Kamble",
   specialty: "BAMS (Mumbai)",
   description:
     "A distinguished medical professional with over 35 years of experience in cardiology, committed to delivering exceptional patient care through evidence-based practices.",
@@ -87,13 +87,15 @@ const AboutDoctor = () => {
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-medium text-sm mb-4">
                 Senior Specialist
               </div>
-              <h3 className="text-2xl sm:text-3xl font-bold text-blue-700 mb-2">
-                {doctorInfo.name}
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-blue-700 mb-2">
+                <span style={{ fontFamily: '"Times New Roman", Times, serif' }}>
+                  {doctorInfo.name}
+                </span>
               </h3>
-              <p className="text-base sm:text-xl text-black font-medium mb-4">
+              <p className="text-base sm:text-xl text-black font-bold mb-4">
                 {doctorInfo.specialty}
               </p>
-              <p className="text-slate-600 leading-relaxed text-lg sm:text-base">
+              <p className="text-slate-900 leading-relaxed text-lg sm:text-base">
                 {doctorInfo.description}
               </p>
             </div>
