@@ -7,7 +7,7 @@ const HeroSection = () => {
   const [isHovered, setIsHovered] = useState(false);
   const homePhoneNumber = '9699361189';
   return (
-<div className="w-full bg-gradient-to-br from-blue-100 via-purple-100 to-purple-200">
+<div className="w-full bg-gradient-to-br from-blue-100 via-purple-100 to-purple-200 pt-24">
       {/* Navigation */}
 
 

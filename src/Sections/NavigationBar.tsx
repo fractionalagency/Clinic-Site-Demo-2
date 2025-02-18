@@ -27,7 +27,7 @@ const NavigationBar = () => {
   };
 
   return (
-    <nav className="bg-white w-full px-4 py-3 shadow-sm sticky top-0 z-50">
+    <nav className="absolute top-0 left-0 w-full bg-transparent px-4 py-3 z-50 shadow-bottom shadow-sm"> 
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center gap-2">
