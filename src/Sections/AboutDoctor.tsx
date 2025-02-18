@@ -61,7 +61,7 @@ const AboutDoctor = () => {
           {/* Left Column - Image */}
           <div className="relative">
             {/* Main circular image container */}
-            <div className="relative w-72 h-72 sm:w-96 sm:h-96 md:w-[500px] md:h-[500px] mx-auto">
+            <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-[500px] md:h-[500px] mx-auto">
               {/* Decorative rings */}
               <div className="absolute inset-0 rounded-full border-2 border-blue-100 animate-[spin_20s_linear_infinite] animate-spin-slow spin-container" />
               <div className="absolute inset-4 rounded-full border-2 border-dashed border-blue-200" />

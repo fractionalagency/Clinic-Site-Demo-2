@@ -41,7 +41,7 @@ interface ServiceProps {
 }
 
 const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, image }) => (
-  <Card className="group overflow-hidden bg-gradient-to-br from-blue-200 via-blue-300 to-indigo-100 border-none drop-shadow-xl">
+  <Card className="group overflow-hidden bg-gradient-to-br from-blue-100 via-blue-200 to-indigo-100 border-none drop-shadow-xl">
     <div className="flex flex-col sm:flex-row h-full">
       <div className="w-full sm:w-48 h-48 sm:h-full flex-shrink-0">
         <img 
@@ -77,10 +77,10 @@ const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, ima
 );
 
 const ServicesSection = () => (
-  <section id="services" className="py-20  bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+  <section id="services" className="py-20  bg-gradient-to-br from-blue-100 via-purple-100 to-purple-100 w-full">
     <div className="max-w-7xl mx-auto px-4">
       <div className="space-y-2 mb-5">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-medium text-sm">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-300 text-blue-600 font-medium text-sm">
           Our Medical Services
         </div>
         <h2 className="text-4xl font-bold text-black leading-tight">
