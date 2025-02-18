@@ -75,7 +75,7 @@ const ReviewCard = ({ name, role, rating, comment, image }: Review) => (
 const ReviewSection = () => {
   return (
     <section id='reviews' className="py-32 pt-10 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-purple-100 to-purple-200 opacity-90" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-purple-100 to-blue-200 opacity-90" />
       
       <div className="max-w-7xl mx-auto px-4 relative">
         <div className="max-w-3xl">

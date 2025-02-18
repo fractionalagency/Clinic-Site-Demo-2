@@ -77,7 +77,7 @@ const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, ima
 );
 
 const ServicesSection = () => (
-  <section id="services" className="py-20  bg-gradient-to-br from-blue-100 via-purple-100 to-purple-100 w-full">
+  <section id="services" className="py-20  bg-gradient-to-br from-blue-100 via-purple-100/70 to-blue-200/60 w-full">
     <div className="max-w-7xl mx-auto px-4">
       <div className="space-y-2 mb-5">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-300 text-blue-900 font-medium text-sm">
