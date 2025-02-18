@@ -44,10 +44,8 @@ interface Review {
 }
 
 const ReviewCard = ({ name, role, rating, comment, image }: Review) => (
-  <div className="min-w-[400px] bg-white/80 backdrop-blur-sm p-8 rounded-3xl 
+  <div className="min-w-[400px] bg-gradient-to-br from-blue-200 via-blue-300/80 to-indigo-200 backdrop-blur-sm p-8 hover:cursor-pointer rounded-3xl mb-10
     border border-white/20 hover:border-white/40 
-    shadow-[0_8px_30px_rgb(0,0,0,0.04)] 
-    hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] 
     transition-all duration-300">
     <div className="flex flex-col h-full justify-between gap-6">
       <div>
