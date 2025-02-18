@@ -41,7 +41,8 @@ interface ServiceProps {
 }
 
 const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, image }) => (
-  <Card className="group overflow-hidden">
+  <Card className="group overflow-hidden bg-[#2b3a55] border-none drop-shadow-xl
+">
     <div className="flex flex-col sm:flex-row h-full">
       <div className="w-full sm:w-48 h-48 sm:h-full flex-shrink-0">
         <img 
@@ -53,20 +54,20 @@ const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, ima
       
       <div className="flex-grow p-4 space-y-3">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-medium text-slate-900">{title}</h3>
+          <h3 className="text-lg font-medium text-white">{title}</h3>
           <ArrowUpRight 
-            className="w-4 h-4 text-slate-400 group-hover:text-blue-500 
+            className="w-4 h-4 text-white group-hover:text-blue-500 
             transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" 
           />
         </div>
         
-        <p className="text-sm text-slate-600 leading-relaxed">
+        <p className="text-sm text-gray-200 leading-relaxed">
           {description}
         </p>
         
         <ul className="space-y-2">
           {features.map((feature, idx) => (
-            <li key={idx} className="flex items-center gap-2 text-sm text-slate-500">
+            <li key={idx} className="flex items-center gap-2 text-sm text-gray-400">
               <span className="w-1 h-1 rounded-full bg-blue-500 opacity-75" />
               {feature}
             </li>
@@ -78,16 +79,16 @@ const ServiceCard: React.FC<ServiceProps> = ({ title, description, features, ima
 );
 
 const ServicesSection = () => (
-  <section id="services" className="py-20 max-w-7xl">
+  <section id="services" className="py-20  bg-[#151d2f] w-full mx-auto">
     <div className="max-w-7xl mx-auto px-4">
       <div className="space-y-2 mb-5">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-medium text-sm">
           Our Medical Services
         </div>
-        <h2 className="text-4xl font-bold text-slate-900 leading-tight">
+        <h2 className="text-4xl font-bold text-white leading-tight">
           What We Offer
         </h2>
-        <p className="text-lg text-slate-600 leading-relaxed">
+        <p className="text-lg text-white leading-relaxed">
           Expertise-driven care directly aligned with our specialist’s areas of excellence.
         </p>
       </div>

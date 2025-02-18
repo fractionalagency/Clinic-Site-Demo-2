@@ -12,49 +12,50 @@ const VisionSection = () => {
     </h2>
   </div>
 
-  {/* Right side first feature */}
-  <div className="p-6 bg-slate-50 rounded-xl border border-neutral-200">
-    <div className="flex gap-3 items-start">
-      <div className="p-1 bg-blue-100 rounded-full">
-        <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
-      <div>
-        <h3 className="font-medium text-slate-900 mb-1 text-2xl">Commitment to Quality Healthcare</h3>
-        <p className="text-lg text-slate-600 max-w-xl leading-relaxed">We aim to provide exceptional general healthcare with a focus on precision, care, and patient satisfaction.</p>
-      </div>
+{/* Right side first feature */}
+<div className="p-6 bg-blue-100 rounded-xl border border-blue-300 shadow-sm">
+  <div className="flex gap-3 items-start">
+    <div className="p-1 bg-blue-100 rounded-full">
+      <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+      </svg>
+    </div>
+    <div>
+      <h3 className="font-medium text-slate-900 mb-1 text-2xl">Commitment to Quality Healthcare</h3>
+      <p className="text-lg text-slate-600 max-w-xl leading-relaxed">We aim to provide exceptional general healthcare with a focus on precision, care, and patient satisfaction.</p>
     </div>
   </div>
+</div>
 
-  {/* Bottom row features */}
-  <div className="p-6 bg-slate-50 rounded-xl border border-neutral-200">
-    <div className="flex gap-3 items-start">
-      <div className="p-1 bg-blue-100 rounded-full">
-        <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
-      <div>
-        <h3 className="font-medium text-slate-900 mb-1 text-2xl">Accessible Wellness for All</h3>
-        <p className="text-lg text-slate-600 max-w-xl leading-relaxed">Our goal is to ensure that quality healthcare is easily accessible to everyone, regardless of background or location.</p>
-      </div>
+{/* Bottom row feature */}
+<div className="p-6 bg-blue-100 rounded-xl border border-blue-300 shadow-sm">
+  <div className="flex gap-3 items-start">
+    <div className="p-1 bg-blue-100 rounded-full">
+      <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+      </svg>
+    </div>
+    <div>
+      <h3 className="font-medium text-slate-900 mb-1 text-2xl">Accessible Wellness for All</h3>
+      <p className="text-lg text-slate-600 max-w-xl leading-relaxed">Our goal is to ensure that quality healthcare is easily accessible to everyone, regardless of background or location.</p>
     </div>
   </div>
+</div>
 
-  <div className="p-6 bg-slate-50 rounded-xl border border-neutral-200">
-    <div className="flex gap-3 items-start">
-      <div className="p-1 bg-blue-100 rounded-full">
-        <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-        </svg>
-      </div>
-      <div>
-        <h3 className="font-medium text-slate-900 mb-1 text-2xl">Innovation in Patient Care</h3>
-        <p className="text-lg text-slate-600 max-w-xl leading-relaxed">Leveraging cutting-edge technology and research to deliver progressive healthcare solutions that evolve with your needs.</p>
-      </div>
+{/* Third feature */}
+<div className="p-6 bg-blue-100 rounded-xl border border-blue-300 shadow-sm">
+  <div className="flex gap-3 items-start">
+    <div className="p-1 bg-blue-100 rounded-full">
+      <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+      </svg>
+    </div>
+    <div>
+      <h3 className="font-medium text-slate-900 mb-1 text-2xl">Innovation in Patient Care</h3>
+      <p className="text-lg text-slate-600 max-w-xl leading-relaxed">Leveraging cutting-edge technology and research to deliver progressive healthcare solutions that evolve with your needs.</p>
     </div>
   </div>
+</div>
 </div>
     </div>
   )

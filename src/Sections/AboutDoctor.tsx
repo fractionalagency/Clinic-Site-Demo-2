@@ -139,7 +139,7 @@ const AboutDoctor = () => {
               {doctorInfo.expertise.map((item, index) => (
                 <div
                   key={index}
-                  className="group bg-white/60 p-2 sm:p-4 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:bg-white/80 hover:-translate-y-1"
+                  className="group bg-blue-100 p-2 sm:p-4 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:bg-blue-200 hover:-translate-y-1"
                 >
                   <div className="flex items-center gap-2">
                     <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition-colors">
@@ -154,7 +154,7 @@ const AboutDoctor = () => {
             </div>
 
             {/* Education Section */}
-            <div className="bg-white/50 rounded-2xl p-4 sm:p-6 shadow-sm">
+            <div className="bg-blue-100 hover:bg-blue-200 rounded-2xl p-4 sm:p-6 shadow-sm">
               <h4 className="text-lg sm:text-xl font-semibold text-slate-900 mb-4">
                 Education & Certification
               </h4>
