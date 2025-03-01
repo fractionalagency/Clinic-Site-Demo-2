@@ -6,7 +6,7 @@ import ServicesSection from './Sections/ServiceSection'
 import ReviewSection from './Sections/ReviewSection'
 import FooterSection from './Sections/FooterSection'
 import AboutDoctor from './Sections/AboutDoctor'
-import BeforeAndAfterGallery from './Sections/BeforeAndAfter'
+import SloganSection from './Sections/SloganSection'
 
 function App() {
 
@@ -19,7 +19,8 @@ function App() {
             <VisionSection />
             <AboutDoctor />
             <ServicesSection />
-            <BeforeAndAfterGallery />
+            {/* <BeforeAndAfterGallery /> */}
+            <SloganSection />
             <ReviewSection />
             <FooterSection />
           </div>
