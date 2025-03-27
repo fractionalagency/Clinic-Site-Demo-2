@@ -7,6 +7,7 @@ import ReviewSection from './Sections/ReviewSection'
 import FooterSection from './Sections/FooterSection'
 import AboutDoctor from './Sections/AboutDoctor'
 import SloganSection from './Sections/SloganSection'
+import CTASection from './Sections/CTASection'
 
 function App() {
 
@@ -19,9 +20,14 @@ function App() {
             <VisionSection />
             <AboutDoctor />
             <ServicesSection />
+
             {/* <BeforeAndAfterGallery /> */}
             <SloganSection />
+
             <ReviewSection />
+            <CTASection 
+            buttonUrl="https://cal.com/harshjadhav/15min" 
+          />
             <FooterSection />
           </div>
         </div>
